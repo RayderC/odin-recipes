@@ -4,6 +4,22 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 8px;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
+.card {
+  vertical-align: top;
+  display: flex;
+  margin-bottom: 32px;
+  border-top: 1px solid rgba(0,0,0,.15);
+  width: 100%;
+}
+.card__imageContainer {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  min-width: 550px;
+}
+.card__detailsContainer {
+  padding: 16px;
+}
