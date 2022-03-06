@@ -1,9 +1,14 @@
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
   }
-.center {
+.centertxt {
   text-align: center;
+}
+.centerimg {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
