@@ -1,0 +1,14 @@
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    }
+  .centertxt {
+    text-align: center;
+  }
+  .centerimg {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
